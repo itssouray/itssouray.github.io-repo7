@@ -195,10 +195,11 @@ button:hover{
 }
 
 .bottom{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction:column;
+   /* grid-template-columns: 1fr;
     grid-template-rows: repeat(2,auto);
-    /* grid-gap: 20px; */
+     grid-gap: 20px; */
     font-family: 'Open Sans';
 }
 
